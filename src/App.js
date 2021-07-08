@@ -1,5 +1,16 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
 
-const App = () => <div>Start here!</div>
+import Header from "./components/Header/Header";
+import Home from "./components/Home";
+
+const App = () => {
+  return (
+    <div className="App">
+      <Header />
+      <Home />
+    </div>
+  );
+};
 
 export default App;
